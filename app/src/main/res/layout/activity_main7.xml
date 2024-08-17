@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+    <ImageButton
+        android:id="@+id/home3"
+        android:layout_width="64dp"
+        android:layout_height="55dp"
+        android:src="@drawable/arrow_back"
+        android:contentDescription="@string/h1"/>
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/bg0"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="104dp"
+            android:layout_height="80dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/fee" />
+
+        <TextView
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:text="Fees"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/lay_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:text="Semester-1"
+        android:textColor="@color/black"
+        android:layout_below="@id/lay1"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:background="@drawable/fees_button"
+        android:padding="12dp"
+        android:layout_marginStart="16dp"/>
+
+    <Button
+        android:id="@+id/lay_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:text="Semester-2"
+        android:textColor="@color/black"
+        android:layout_below="@id/lay_2"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:background="@drawable/fees_button"
+        android:padding="12dp"
+        android:layout_marginStart="16dp"/>
+
+    <Button
+        android:id="@+id/lay_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:text="Semester-3"
+        android:textColor="@color/black"
+        android:layout_below="@id/lay_3"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:background="@drawable/fees_button"
+        android:padding="12dp"
+        android:layout_marginStart="16dp"/>
+
+    <Button
+        android:id="@+id/lay_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:text="Semester-4"
+        android:textColor="@color/black"
+        android:layout_below="@id/lay_4"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:background="@drawable/fees_button"
+        android:padding="12dp"
+        android:layout_marginStart="16dp"/>
+
+
+
+</RelativeLayout>

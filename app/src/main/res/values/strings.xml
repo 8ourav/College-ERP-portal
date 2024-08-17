@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">mad</string>
+    <string name="teacher">Roma Mewadawala</string>
+    <string name="h1">Home page</string>
+    <string name="web">Web Technology</string>
+    <string name="mad">Mobile Application Development</string>
+    <string name="course">Course Code (CE____)</string>
+    <string name="total">Total</string>
+    <string name="per">Percentage</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="title_activity_scrolling" translatable="false">ScrollingActivity</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="article_text" translatable="false">Indus Institute of Technology and Engineering, Indus University is excited to announce the celebration of the 56th Engineers\'Day. Date: September 15, 2023 Time: 10:00 AM onwards Venue: Auditorium, Indus University Theme: "Engineering Innovation for a Resilient World" Chief Guest: Shri Nilesh Desai, Director of Space Application Center (SAC), ISRO Ahmedabad will grace us with his presence and share insights into the latest developments in space exploration. Keynote Speaker: Mr. Niraj Shah, Automation and Robotics Engineer, owner of Arihant Satiate, Ahmedabad.He will delve into cutting-edge automation and robotics trends. Industrial Exhibitions by Leading Organizations: World Federation of Engineering Organizations (WFEO), Institute of Engineers India (IEI), Water Management Forum (WMF), World of Lilliputs-3D (WoL-3D), Green Field Control Systems, Proji Systems and Technology, International Automobile Centre of Excellence (IACE).</string>
+    <string name="password">Password</string>
+    <string name="attendance">ATTENDANCE</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="my_profile">My Profile</string>
+    <string name="ac3">ABCXYZ INSTITUTE OF TECHNOLOGY AND ENGINEERING</string>
+    <string name="my_courses">MY COURSES</string>
+    <string name="exam_result">EXAM RESULT</string>
+    <string name="fees">FEES</string>
+    <string name="information">INFORMATION</string>
+    <string name="events1">Events</string>
+    <string name="events">EVENTS</string>
+    <string name="ce">BTech CE</string>
+    <string name="batch_2021_2025">Batch (2021–2025)</string>
+    <string name="period_6">Period 6</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="logout1">Logout</string>
+    <!--    <string name="sub1">MAD</string>-->
+</resources>

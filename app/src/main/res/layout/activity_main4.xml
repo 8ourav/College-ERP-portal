@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="64dp"
+        android:layout_height="55dp"
+        android:src="@drawable/arrow_back"
+        android:contentDescription="@string/h1"/>
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/bg0"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="119dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="fill_horizontal"
+            android:src="@drawable/cou1" />
+
+        <LinearLayout
+            android:id="@+id/sublay1"
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="fill_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ce"
+                android:textColor="@color/white"
+                android:textSize="32sp" />
+            <!--                android:textStyle="bold"-->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/batch_2021_2025"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+            <!--                android:textStyle="bold"-->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/period_6"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+            <!--                android:textStyle="bold"-->
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:layout_below="@+id/lay1">
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="75dp"
+            android:layout_gravity="fill_horizontal"
+            android:src="@drawable/subicon" />
+
+        <LinearLayout
+            android:id="@+id/sublay2"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:gravity="fill_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sub1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mad"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/course"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teacher"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:text="_______________________________________________________________"-->
+<!--        android:layout_marginTop="270dp" />-->
+
+    <LinearLayout
+        android:id="@+id/lay3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:layout_below="@+id/lay2">
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="75dp"
+            android:layout_gravity="fill_horizontal"
+            android:src="@drawable/subicon" />
+
+        <LinearLayout
+            android:id="@+id/sublay3"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:gravity="fill_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sub2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/web"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/course"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teacher"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

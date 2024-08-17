@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8">
+
+    <ImageButton
+        android:id="@+id/home4"
+        android:layout_width="64dp"
+        android:layout_height="55dp"
+        android:src="@drawable/arrow_back"
+        android:contentDescription="@string/h1"/>
+
+    <LinearLayout
+        android:id="@+id/lay10"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/bg0"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="104dp"
+            android:layout_height="80dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/exam" />
+
+        <TextView
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Exam Result"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/lay10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cancel_btn_popup1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:padding="10dp"
+            android:text="Semester-1"
+            android:textSize="20sp"
+            android:foreground="?attr/selectableItemBackground"
+            android:textColor="@color/black"
+            android:background="@drawable/square_button1"
+            android:layout_marginEnd="3dp"
+            android:gravity="center"
+            tools:ignore="UnusedAttribute" />
+        <TextView
+            android:id="@+id/add_btn_popup1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:padding="10dp"
+            android:text="Sgpa:9.5"
+            android:textSize="20sp"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/square_button"
+            android:textColor="@color/black"
+            android:gravity="fill_horizontal"
+            tools:targetApi="m"
+            tools:ignore="UnusedAttribute" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/lay20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cancel_btn_popup2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:padding="10dp"
+            android:text="Semester-2"
+            android:textSize="20sp"
+            android:foreground="?attr/selectableItemBackground"
+            android:textColor="@color/black"
+            android:background="@drawable/square_button"
+            android:layout_marginEnd="3dp"
+            android:gravity="center"
+            tools:ignore="UnusedAttribute" />
+        <TextView
+            android:id="@+id/add_btn_popup2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:padding="10dp"
+            android:text="Sgpa:10"
+            android:textSize="20sp"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/square_button1"
+            android:textColor="@color/black"
+            android:gravity="fill_horizontal"
+            tools:targetApi="m"
+            tools:ignore="UnusedAttribute" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/lay30"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cancel_btn_popup3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:padding="10dp"
+            android:text="Semester-3"
+            android:textSize="20sp"
+            android:foreground="?attr/selectableItemBackground"
+            android:textColor="@color/black"
+            android:background="@drawable/square_button1"
+            android:layout_marginEnd="3dp"
+            android:gravity="center"
+            tools:ignore="UnusedAttribute" />
+        <TextView
+            android:id="@+id/add_btn_popup3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:padding="10dp"
+            android:text="Sgpa:10"
+            android:textSize="20sp"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/square_button"
+            android:textColor="@color/black"
+            android:gravity="fill_horizontal"
+            tools:targetApi="m"
+            tools:ignore="UnusedAttribute" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lay50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/lay40"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cancel_btn_popup4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:padding="10dp"
+            android:text="Semester-4"
+            android:textSize="20sp"
+            android:foreground="?attr/selectableItemBackground"
+            android:textColor="@color/black"
+            android:background="@drawable/square_button"
+            android:layout_marginEnd="3dp"
+            android:gravity="center"
+            tools:ignore="UnusedAttribute" />
+        <Button
+            android:id="@+id/add_btn_popup4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:padding="5dp"
+            android:text="not declared"
+            android:textSize="15sp"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/fees_button"
+            android:textColor="@color/black"
+            android:gravity="center" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+    <ImageButton
+    android:id="@+id/home2"
+    android:layout_width="64dp"
+    android:layout_height="55dp"
+    android:src="@drawable/arrow_back"
+    android:contentDescription="@string/h1"/>
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/bg0"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="104dp"
+            android:layout_height="80dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/info1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Information"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/bg1"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/article_subheading"
+                android:layout_width="414dp"
+                android:layout_height="match_parent"
+                android:textSize="30sp"
+                android:text="ABCXYZ University"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textAppearance="@android:style/TextAppearance" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="3"
+                android:rowCount="2"
+                android:layout_margin="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="172dp"
+                    android:layout_height="100dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:scaleX="1.1"
+                    android:scaleY="1.24"
+                    android:padding="5dp"
+                    android:src="@drawable/uni1" />
+
+                <ImageView
+                    android:layout_width="175dp"
+                    android:layout_height="100dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:scaleX="1."
+                    android:scaleY="1.14"
+                    android:padding="5dp"
+                    android:src="@drawable/uni2" />
+
+                <ImageView
+                    android:layout_width="175dp"
+                    android:layout_height="100dp"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_marginTop="15dp"
+                    android:padding="8dp"
+                    android:scaleX="1.4"
+                    android:scaleY="1.2"
+                    android:src="@drawable/uni5" />
+
+                <ImageView
+                    android:layout_width="175dp"
+                    android:layout_height="100dp"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:scaleX="1.03"
+                    android:scaleY="1"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/uni6" />
+
+                <ImageView
+                    android:layout_width="175dp"
+                    android:layout_height="100dp"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_marginTop="127dp"
+                    android:padding="8dp"
+                    android:scaleX="1.53"
+                    android:scaleY="1.15"
+                    android:src="@drawable/uni3" />
+
+                <ImageView
+                    android:layout_width="175dp"
+                    android:layout_height="100dp"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:scaleX="1.05"
+                    android:scaleY="1"
+                    android:layout_marginTop="127dp"
+                    android:src="@drawable/uni6" />
+
+
+            </GridLayout>
+            <TextView
+                android:id="@+id/article"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:layout_margin="20dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:lineSpacingExtra="10dp"
+                android:text="@string/article_text" />
+            <!--                android:autoLink="https://indusuni.ac.in/home.php"-->
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

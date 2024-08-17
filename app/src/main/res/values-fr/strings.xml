@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">mad</string>
+    <string name="username">Nom d utilisateur</string>
+    <string name="login">Se connecter</string>
+    <string name="login_with_google">Connectez-vous avec Google</string>
+    <string name="password">Mot de passe</string>
+    <string name="my_profile">Mon profil</string>
+    <string name="ac3">INSTITUT ABCXYZ DE TECHNOLOGIE ET ​​D\'INGÉNIERIE</string>
+    <string name="my_courses">MES COURS</string>
+    <string name="attendance">PRÉSENCE</string>
+    <string name="exam_result">RÉSULTAT D\'ÉXAMEN</string>
+    <string name="fees">FRAIS</string>
+    <string name="information">INFORMATION</string>
+    <string name="batch_2021_2025">Lot (2021–2025)</string>
+    <string name="period_6">Période 6</string>
+    <string name="ce">BTech CE</string>
+    <string name="mad">Développement d\'applications</string>
+    <string name="course">Code du cours (CE____)</string>
+    <string name="total">Totale</string>
+    <string name="per">Pourcentage</string>
+    <string name="teacher">Roma Mewadawala</string>
+    <string name="h1">Page d\'accueil</string>
+    <string name="web">Technologie Web</string>
+    <string name="reset_password">réinitialiser le mot de passe</string>
+    <string name="logout1">Se déconnecter</string>
+</resources>

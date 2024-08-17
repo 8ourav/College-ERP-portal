@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/hello_btn"
+            android:layout_width="64dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/baseline_menu_24"
+            android:contentDescription="@string/h1"/>
+        <ImageView
+            android:layout_width="144dp"
+            android:layout_height="156dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="130dp"
+            android:src="@drawable/bg" />
+
+        </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ac3"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:typeface="monospace"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="74dp"
+            android:layout_height="52dp"
+            android:src="@drawable/courses"/>
+
+        <Button
+            android:id="@+id/my_cou"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/my_courses"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/square_button1"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="74dp"
+            android:layout_height="52dp"
+            android:src="@drawable/atten"/>
+
+        <Button
+            android:id="@+id/atten_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/attendance"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/square_button"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="74dp"
+            android:layout_height="52dp"
+            android:src="@drawable/result"/>
+
+        <Button
+            android:id="@+id/exam_res"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/exam_result"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/square_button1"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="74dp"
+            android:layout_height="52dp"
+            android:src="@drawable/fees"/>
+
+        <Button
+            android:id="@+id/fees"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/fees"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/square_button"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="74dp"
+            android:layout_height="52dp"
+            android:src="@drawable/info"/>
+
+        <Button
+            android:id="@+id/info_act"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/information"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/square_button1"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="74dp"
+            android:layout_height="52dp"
+            android:src="@drawable/event"/>
+
+        <Button
+            android:id="@+id/event"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/square_button"
+            android:gravity="center"
+            android:text="EVENTS"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
